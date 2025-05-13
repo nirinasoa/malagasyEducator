@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="bg-gray-50 p-8 min-h-screen flex justify-center items-center ">
+    <main className="bg-gray-50 p-8 min-h-screen flex justify-center items-center">
       <article className="bg-white max-w-4xl p-8 rounded-lg shadow-xl">
         <header className="mb-4">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Ndriana Ranto</h1>
