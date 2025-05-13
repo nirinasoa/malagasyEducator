@@ -2,10 +2,10 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="bg-gray-50 p-8 min-h-screen flex justify-center items-center">
-      <article className="bg-white max-w-4xl p-8 rounded-lg shadow-xl">
+    <main className="bg-gray-50 p-5 min-h-screen flex justify-center items-center">
+      <article className="bg-white max-w-5xl p-8 rounded-lg shadow-xl">
         <header className="mb-4">
-          <h1 className="text-4xl font-bold text-red-900 mb-2">Ndriana Ranto</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Ndriana Ranto</h1>
           <p className="text-sm text-gray-500 italic">A personal reflection</p>
         </header>
 
