@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <div>
-      <nav className="">
-        <div className="mx-auto px-2 py-2 flex justify-between items-center">
+      <nav className=" mt-0">
+        <div className=" px-2  flex justify-between items-center">
           <div className="text-lg font-bold  flex items-center space-x-1">
             <img className=" rounded-full " height={45} width={45} src="android-chrome-512x512.png" />
             <span className="text-gray-700 ">Journal Intello</span>
           </div>
         </div>
-        <hr className=" border-1 border-gray-300" />
+        <hr className="mt-2 border-1 border-gray-300" />
       </nav>
       <main className=" p-5 min-h-screen  text-gray-600 flex justify-center items-center">
-        <article className="bg-white max-w-[52rem] p-10 rounded-lg shadow-xl">
+        <article className="bg-white max-w-[52rem] py-6 px-8  rounded-lg shadow-xl">
           <motion.header
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="mb-4"
           >
-            <h1 className="text-4xl font-bold text-gray-600 mb-2">Ndriana Ranto</h1>
+            <h1 className="text-4xl font-bold text-gray-600 mb-1">Ndriana Ranto</h1>
             <p className="text-sm text-gray-400 italic">A personal reflection</p>
           </motion.header>
 
