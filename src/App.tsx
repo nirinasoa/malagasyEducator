@@ -39,7 +39,7 @@ function App() {
               tamin’ny bacterie; dia ny fisian’ilay zazalahy hoe Ndriana Ranto.
             </p>
             <p className="">Tsy fantatro izy, tsy mampaninona; fa ny zava-bitany no mahalasa saina.</p>
-            <img src="page.png" width={400} className="mx-auto " />
+            <img src="page.png" alt="Article sur Ndriana Ranto" width={400} className="mx-auto " />
             <br />
           </motion.section>
 
@@ -57,7 +57,7 @@ function App() {
               Mamoaka mention isan-taona ny sekoly izay hiandraiketany, serie C. Ny nahatalanjona ahy dia valin’ny BACC
               2023-24. Izao no valin’ny Bacc tamin’izany :
             </p>
-            <img src="resultatBacc.png" width={400} className="mx-auto" />
+            <img src="resultatBacc.png" alt="Résultats BACC 2023 Ndriana Ranto" width={400} className="mx-auto" />
             <table className=" border mx-auto ">
               <tbody>
                 <tr className="hover:bg-gray-100">
@@ -86,7 +86,7 @@ function App() {
               Mampianatra mathématiques maimaim-poana izy ho an’ny ankizy te hivoatra. Mampianatra allemand
               maimaim-poana izy sy tenim-pirenena hafa koa.
             </p>
-            <img src="teaching.png" width={400} className="mx-auto" />
+            <img src="teaching.png" alt="Ndriana Ranto enseignant gratuitement" width={400} className="mx-auto" />
             <p>
               Miarahaba anao aho Ndriana Ranto. Izao mihitsy ny Malagasy notadiaviko, tanora mahay, hendry sady tia
               tanindrazana. Amiko dia tigre kelin’i Madagasikara ianao, the little tiger of Madagascar.
