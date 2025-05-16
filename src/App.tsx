@@ -13,8 +13,8 @@ function App() {
         </div>
         <hr className="mt-2 border-1 border-gray-300" />
       </nav>
-      <main className=" p-5 min-h-screen  text-gray-600 flex justify-center items-center">
-        <article className="bg-white max-w-[52rem] py-6 px-8  rounded-lg shadow-xl">
+      <main className=" py-5 min-h-screen  text-gray-600 flex justify-center items-center">
+        <article className="bg-white max-w-[52rem] py-6 px-8 rounded-lg shadow-xl">
           <motion.header
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -24,7 +24,6 @@ function App() {
             <h1 className="text-4xl font-bold text-gray-600 mb-1">Ndriana Ranto</h1>
             <p className="text-sm text-gray-400 italic">A personal reflection</p>
           </motion.header>
-
           <motion.section
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
