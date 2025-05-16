@@ -11,7 +11,7 @@ function App() {
             <span className="text-gray-700 ">Journal Intello</span>
           </div>
         </div>
-        <hr className=" border border-gray-100" />
+        <hr className=" border-1 border-gray-300" />
       </nav>
       <main className=" p-5 min-h-screen  text-gray-600 flex justify-center items-center">
         <article className="bg-white max-w-[52rem] p-10 rounded-lg shadow-xl">
@@ -40,7 +40,8 @@ function App() {
               tamin’ny bacterie; dia ny fisian’ilay zazalahy hoe Ndriana Ranto.
             </p>
             <p className="">Tsy fantatro izy, tsy mampaninona; fa ny zava-bitany no mahalasa saina.</p>
-            <img src="page.png" width={400} className="mx-auto" />
+            <img src="page.png" width={400} className="mx-auto " />
+            <br />
           </motion.section>
 
           <motion.section
