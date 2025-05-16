@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://journalintello.blog/sitemap.xml
