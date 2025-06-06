@@ -93,6 +93,28 @@ function App() {
             </p>
             <p>Manantena hifankahita aminao aho Ndriana Ranto fa tsy any Madagasikara. </p>
             <p>Professeur Malagasy aty am-pita aho, tsy any Frantsa.</p>
+            <br />
+          </motion.section>
+          <motion.section
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, ease: "easeOut" }}
+            className="space-y-6 text-left"
+          >
+            <p>
+              Faly sy gaga foana aho maheno ny fivoaranao Ndriana Ranto; ireny mention anao tamin’ny 2023-2024 ireny hay
+              tamin’ny kilasy iray ihany! Tamin’ny andronay kilasy telo TC1, TC2, TC3 mbola tsy mahatafavoaka ireny
+              mention an’ny For Twelve ireny. Miova mihitsy Madagasikara tamin’ny nahatongavanao.{" "}
+            </p>
+            <p>
+              Arahako tsara ny zavatra ataonao Ndriana Ranto, hay mampianatra Excel avo lenta amin’ny Polisy Nationaly
+              ianao; sady mahay teny allemand ireo Polisy ireo! Ny mpianatrao izay afaka B1 teny allemand dia nahafaly
+              ahy mihitsy ary henoko fa lasa any “Autriche” io mpianatra io.
+            </p>
+            <p>
+              Mamporisika anao aho amin’ny fampianarana allemand izay ataonao amin’ny 8 jolay, tohizo fa manohana anao
+              izahay aty am-pitan-dranomasina. Alefa Ndriana Ranto, our little tiger of Madagascar.
+            </p>
           </motion.section>
 
           <footer className="mt-6 border-t pt-4 text-sm text-gray-600">
